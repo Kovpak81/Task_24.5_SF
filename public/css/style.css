@@ -1,0 +1,67 @@
+.navigation {
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+.header {
+    height: 200px;
+    background-color: aquamarine;
+}
+
+h1{
+    color: cornflowerblue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around; 
+    margin: 0;
+    padding: 4px;
+    list-style-type: none;
+    
+}
+
+ul li{
+   background-color: aliceblue;
+   margin-right: 5px;
+    border: 1px solid #000; 
+    border-radius: 15px;
+    padding: 3px;
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+ul li a:visited, ul li a:active {
+    background-color: blueviolet;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+
+ul li.red{
+    background-color: rgb(98, 226, 43);
+}
+
+.photo2 {
+    width: 60%;
+    height: 550px;
+}
+
+.photo1 {
+    width: 60%;
+    height: 500px;
+}
+
+.task {
+    color: blueviolet;
+    font-size: 20px;
+}
