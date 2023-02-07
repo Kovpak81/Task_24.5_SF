@@ -37,10 +37,6 @@ ul li a:hover {
     color: red;
 }
 
-ul li a:visited, ul li a:active {
-    background-color: blueviolet;
-}
-
 ul li a {
     text-decoration: none;
 }
